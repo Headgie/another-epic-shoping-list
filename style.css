@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  list-style: none;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 5px;
+  flex: 500px 200px;
+  /* flex: 1 1 15em; */
+  padding: 1em;
+  /* max-width: 500px; */
+}
+
+.remove{
+  float: right;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
