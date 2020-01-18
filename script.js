@@ -10,7 +10,7 @@ const addElementToList = () => {
   label.classList.add("label");
   label.appendChild(document.createTextNode(input.value));
   li.appendChild(label);
-  
+
   let bt = document.createElement("button");
   let icon = document.createElement("i");
   icon.classList.add("fa", "fa-times");
@@ -30,7 +30,7 @@ button.onclick = () => {
   }
 };
 
-input.onkeypress = (e) => {
+input.onkeypress = e => {
   if (e.keyCode === 13 && inputLength() > 0) {
     addElementToList();
   }
@@ -38,8 +38,6 @@ input.onkeypress = (e) => {
 
 function listItemClick() {
   this.firstElementChild.classList.toggle("done");
-  const out = () => console.log(this);
-  out();
 }
 
 function removeListItem() {
