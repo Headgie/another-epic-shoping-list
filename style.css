@@ -8,8 +8,8 @@ html {
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background: rgb(215, 224, 228);
-  /* background: linear-gradient(0deg, rgba(231,231,232,1) 0%, rgba(221,221,236,1) 35%, rgba(206,241,247,1) 100%); */
+  /* background: rgb(215, 224, 228); */
+  background: linear-gradient(to right, rgb(234, 242, 236), rgb(217, 226, 240));
 }
 
 body {
